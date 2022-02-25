@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.63">
-<title data-react-helmet="true">SAML Service Providers | GRNET eid Proxy Documentation</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="SAML Service Providers | GRNET eid Proxy Documentation"><meta data-react-helmet="true" name="description" content="SAML2 Service Providers"><meta data-react-helmet="true" property="og:description" content="SAML2 Service Providers"><meta data-react-helmet="true" property="og:url" content="https://grnet.github.io/grnet-eid-proxy/docs/saml_service_providers"><link data-react-helmet="true" rel="shortcut icon" href="/grnet-eid-proxy/img/favicon0.ico"><link data-react-helmet="true" rel="canonical" href="https://grnet.github.io/grnet-eid-proxy/docs/saml_service_providers"><link rel="stylesheet" href="/grnet-eid-proxy/styles.ba70968d.css">
+<title data-react-helmet="true">SAML Service Providers | GRNET eid Proxy Documentation</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="SAML Service Providers | GRNET eid Proxy Documentation"><meta data-react-helmet="true" name="description" content="SAML2 Service Providers"><meta data-react-helmet="true" property="og:description" content="SAML2 Service Providers"><meta data-react-helmet="true" property="og:url" content="https://grnet.github.io/grnet-eid-proxy/docs/saml_service_providers"><link data-react-helmet="true" rel="shortcut icon" href="/grnet-eid-proxy/img/favicon0.ico"><link data-react-helmet="true" rel="canonical" href="https://grnet.github.io/grnet-eid-proxy/docs/saml_service_providers"><link rel="stylesheet" href="/grnet-eid-proxy/styles.08ead659.css">
 <link rel="preload" href="/grnet-eid-proxy/styles.38a3824a.js" as="script">
-<link rel="preload" href="/grnet-eid-proxy/runtime~main.40ae67c1.js" as="script">
-<link rel="preload" href="/grnet-eid-proxy/main.55874977.js" as="script">
-<link rel="preload" href="/grnet-eid-proxy/1.5b247553.js" as="script">
-<link rel="preload" href="/grnet-eid-proxy/2.d0ffb1d3.js" as="script">
-<link rel="preload" href="/grnet-eid-proxy/15.0ef6943c.js" as="script">
+<link rel="preload" href="/grnet-eid-proxy/runtime~main.6d265f0a.js" as="script">
+<link rel="preload" href="/grnet-eid-proxy/main.5f043699.js" as="script">
+<link rel="preload" href="/grnet-eid-proxy/1.bf85f229.js" as="script">
+<link rel="preload" href="/grnet-eid-proxy/2.5c04ada0.js" as="script">
+<link rel="preload" href="/grnet-eid-proxy/15.1e28a812.js" as="script">
 <link rel="preload" href="/grnet-eid-proxy/16.8a4b797d.js" as="script">
 <link rel="preload" href="/grnet-eid-proxy/935f2afb.472aeb8b.js" as="script">
 <link rel="preload" href="/grnet-eid-proxy/17896441.b946f9e1.js" as="script">
-<link rel="preload" href="/grnet-eid-proxy/c830b032.fb4a6738.js" as="script">
+<link rel="preload" href="/grnet-eid-proxy/c830b032.44010606.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -33,16 +33,16 @@ The SP metadata should also contain contact information for support and for a te
 The <code>&lt;md:EntityDescriptor&gt;</code> element should contain both a <code>&lt;md:ContactPerson&gt;</code> element with a contactType of &quot;support&quot; and a <code>&lt;md:ContactPerson&gt;</code> element with a contactType of &quot;technical&quot;.
 The <code>&lt;md:ContactPerson&gt;</code> elements should contain at least one <code>&lt;md:EmailAddress&gt;</code>.
 The support address may be used for generic support questions about the service, while the technical contact may be contacted regarding technical interoperability problems.
-The technical contact must be responsible for the technical operation of the service represented by the SP.</p></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/grnet-eid-proxy/docs/openid"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« OpenID Connect Clients</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/grnet-eid-proxy/docs/user_attributes"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">User Attributes »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#saml2-service-providers" class="table-of-contents__link">SAML2 Service Providers</a></li><li><a href="#metadata-registration" class="table-of-contents__link">Metadata registration</a></li><li><a href="#idp-metadata" class="table-of-contents__link">IdP Metadata</a></li><li><a href="#sp-metadata" class="table-of-contents__link">SP Metadata</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/grnet-eid-proxy/docs/">Explore Documentation</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/grnet/grnet-eid-proxy" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/grnet/grnet-eid-proxy" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div></div><div class="text--center"><div>Copyright © 2021 GRNET</div></div></div></footer></div>
+The technical contact must be responsible for the technical operation of the service represented by the SP.</p></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/grnet-eid-proxy/docs/openid"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« OpenID Connect Clients</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/grnet-eid-proxy/docs/user_attributes"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">User Attributes »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#saml2-service-providers" class="table-of-contents__link">SAML2 Service Providers</a></li><li><a href="#metadata-registration" class="table-of-contents__link">Metadata registration</a></li><li><a href="#idp-metadata" class="table-of-contents__link">IdP Metadata</a></li><li><a href="#sp-metadata" class="table-of-contents__link">SP Metadata</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/grnet-eid-proxy/docs/">Explore Documentation</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/grnet/grnet-eid-proxy" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/grnet/grnet-eid-proxy" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div></div><div class="text--center"><div>Copyright © 2022 GRNET</div></div></div></footer></div>
 <script src="/grnet-eid-proxy/styles.38a3824a.js"></script>
-<script src="/grnet-eid-proxy/runtime~main.40ae67c1.js"></script>
-<script src="/grnet-eid-proxy/main.55874977.js"></script>
-<script src="/grnet-eid-proxy/1.5b247553.js"></script>
-<script src="/grnet-eid-proxy/2.d0ffb1d3.js"></script>
-<script src="/grnet-eid-proxy/15.0ef6943c.js"></script>
+<script src="/grnet-eid-proxy/runtime~main.6d265f0a.js"></script>
+<script src="/grnet-eid-proxy/main.5f043699.js"></script>
+<script src="/grnet-eid-proxy/1.bf85f229.js"></script>
+<script src="/grnet-eid-proxy/2.5c04ada0.js"></script>
+<script src="/grnet-eid-proxy/15.1e28a812.js"></script>
 <script src="/grnet-eid-proxy/16.8a4b797d.js"></script>
 <script src="/grnet-eid-proxy/935f2afb.472aeb8b.js"></script>
 <script src="/grnet-eid-proxy/17896441.b946f9e1.js"></script>
-<script src="/grnet-eid-proxy/c830b032.fb4a6738.js"></script>
+<script src="/grnet-eid-proxy/c830b032.44010606.js"></script>
 </body>
 </html>
