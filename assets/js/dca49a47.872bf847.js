@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[469],{1158:e=>{e.exports=JSON.parse('{"title":"About","slug":"/category/about","permalink":"/grnet-eid-proxy/docs/category/about","navigation":{"next":{"title":"GRNET eID Proxy","permalink":"/grnet-eid-proxy/docs/"}}}')}}]);
