@@ -5,7 +5,7 @@ sidebar_position: 1
 slug: /
 ---
 
-The GRNET eID Proxy service is a deployment of the Service Provider plugin presented in Chapter 3. As described in the previous Section, the proxy service will be used to enable authenticated access to the AcademicID  service through the eIDAS network. There are three instances of the GRNET eID Proxy:
+The GRNET eID Proxy service is a service that will be used to enable authenticated access to the AcademicID  service through the eIDAS network. There are three instances of the GRNET eID Proxy:
 
 1. **Production** – Connected with the production instance of the Greek eIDAS Node which, in turn, is connected to a number of production eIDAS Nodes of other Member States. This allows eIDAS cross-border authentication using natural/legal person account credentials.
 
