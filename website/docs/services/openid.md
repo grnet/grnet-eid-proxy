@@ -5,7 +5,7 @@ sidebar_position: 2
 ---
 
 
-Services can be integrated with the GRNET eID Proxy using OpenID Connect (OIDC). To allow this, the Proxy provides an OpenID Connect (OAuth2) API. Interconnection with the eID Proxy OIDC Provider allows users to sign in using any of the supported backend authentication mechanisms, including the eIDAS-Node Infrastructure. Once the user has signed in, the Proxy can return OIDC Claims containing information about the authenticated user.
+Services can be integrated with the GRNET eID Proxy using OpenID Connect (OIDC). To allow this, the Proxy provides an OpenID Connect (OAuth2) API. The Interconnection with the eID Proxy OIDC Provider allows users to sign in using any of the supported backend authentication mechanisms, including the eIDAS-Node Infrastructure. Once the user has signed in, the Proxy can return OIDC Claims containing information about the authenticated user.
 
 
 ## Endpoints
